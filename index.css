@@ -330,6 +330,7 @@ h2{
     margin: auto;
     box-sizing: border-box;
     padding: 0px 15px;
+    font-size: 15px;
 }
 .norm>h2{
     margin-left: 0px;

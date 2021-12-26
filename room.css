@@ -103,7 +103,7 @@ section .pic{
     width: 1200px;
     margin: auto;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 15px;
     padding: 60px 100px;
     letter-spacing: 0.1em;
     /* font-weight:normal; */
