@@ -22,7 +22,7 @@ header a{
 }
 header>div{
     /* width: 100%; */
-    max-width: 1200px;
+    width: 1200px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
