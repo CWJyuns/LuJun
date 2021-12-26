@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>廬竣</title>
+    <link rel="stylesheet" href="cssReset.css">
+    <link rel="stylesheet" href="globalCss.css">
+    <link rel="stylesheet" href="homePage.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>廬竣</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">民宿介紹</a>
+                    </li>
+                    <li>
+                        <a href="#">空房查詢</a>
+                    </li>
+                    <li>
+                        <a href="#">民宿規範</a>
+                    </li>
+                    <li>
+                        <a href="#">來宿方式</a>
+                    </li>
+                    <li>
+                        <a href="#">聯絡我們</a>
+                    </li>
+                    <li class="">
+                        <a href="#">快速預定</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="discount">
+        <!-- <h2>優惠</h2> -->
+        <!-- <button id="addPic" onclick="changpic()"></button> -->
+        <button id="addPic"></button>
+        <div class="pic">
+            <div>
+                <p>ＯＯＯ房-Ｏ樓-Ｏ人</p>
+            </div>
+            <img src="pic/discount_01.jpeg" alt="" id="discountPic">
+                <!-- <a href="">預定</a> -->
+            <div>
+                <p>優惠價:0,000元</p>
+                <a href="" class="btn">預定</a>
+            </div>
+        </div>
+        <button></button> 
+    </section>
+    <script>
+        var pic = document.getElementById("discountPic")
+        var addPic = document.getElementById("addPic")
+        function changpic(){
+            // pic.style.transition = "0.5s";
+            // pic.style.marginBottom = "-100px";           
+            var aaa = ["pic/discount_01.jpeg","pic/roomRefer_01.jpeg"]
+            pic.src = "pic/roomRefer_01.jpeg";
+        }
+        addPic.onclick = changpic ;
+    </script>
+    <!-- ----------------民宿介紹---------------- -->
+    <section>
+        <div class="roomRefer">
+            <h2>民宿介紹</h2>
+            <div>
+                <div class="roomReferCell">
+                    <div class="roomReferCellPic">
+                        <img src="pic/roomRefer_01.jpeg" alt="roomimg">
+                    </div>
+                    <div class="roomReferCellTxt">
+                        <div class="txt">
+                            <div>
+                                <p>oooo房</p>
+                                <p>o人</p>
+                            </div>
+                            <p>房間介紹: oooo平方米(約o坪)</p>
+                            <p>特色:oooooo</p>
+                        </div>
+                        <div class="btnCell">
+                            <p> 價錢:ooo元</p>
+                            <a href="" class="btn">預約</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="roomReferCell">
+                    <div class="roomReferCellPic">
+                        <img src="pic/roomRefer_01.jpeg" alt="roomimg">
+                    </div>
+                    <div class="roomReferCellTxt">
+                        <div class="txt">
+                            <div>
+                                <p>oooo房</p>
+                                <p>o人</p>
+                            </div>
+                            <p>房間介紹: oooo平方米(約o坪)</p>
+                            <p>特色:oooooo</p>
+                        </div>
+                        <div class="btnCell">
+                            <p> 價錢:ooo元</p>
+                            <a href="" class="btn">預約</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="roomReferCell">
+                    <div class="roomReferCellPic">
+                        <img src="pic/roomRefer_01.jpeg" alt="roomimg">
+                    </div>
+                    <div class="roomReferCellTxt">
+                        <div class="txt">
+                            <div>
+                                <p>oooo房</p>
+                                <p>o人</p>
+                            </div>
+                            <p>房間介紹: oooo平方米(約o坪)</p>
+                            <p>特色:oooooo</p>
+                        </div>
+                        <div class="btnCell">
+                            <p> 價錢:ooo元</p>
+                            <a href="" class="btn">預約</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------民宿介紹ＥＮＤ---------------- -->
+    <!-- ----------------活動介紹---------------- -->
+    <section>
+        <div class="activity">
+            <h2>活動介紹</h2>
+            <div>
+                <div class="activitytime">
+                    <div>
+                        <p>活動日期:</p>
+                        <p>2021</p>
+                    </div>
+                    <div class="activityday">
+                        <p>01號 ooo活動</p>
+                        <p>13號 ooo活動</p>
+                        <p>21號 ooo活動</p>
+                    </div>
+                    
+                </div>
+                <div class="activitytxt">
+                    <p>ooo活動</p>
+                    <p>oo/oo ~ oo/oo</p>
+                    <p>活動內容:</p>
+                    <p>活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容活動內容</p>
+                    <p>如何參加:ooooo</p>
+                    <p>參加限制:ooooo</p>
+                    <p>活動地點:ooooo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------活動介紹ＥＮＤ---------------- -->
+    <!-- ----------------環境介紹---------------- -->
+    <section>
+        <div class="viewpoint">
+            <h2>環境介紹</h2>
+            <div>
+                <div class="viewpointCell">
+                    <h3>屏東縣民公園</h3>
+                    <img src="pic/viewpoint_01.jpeg" alt="景點圖">
+                    <div class="txt">
+                        <p>景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點</p>
+                        <p>距離:ooo公里</p>
+                    </div>
+                </div>
+                <div class="viewpointCell">
+                    <h3>屏東縣民公園</h3>
+                    <img src="pic/viewpoint_01.jpeg" alt="景點圖">
+                    <div class="txt">
+                        <p>景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點</p>
+                        <p>距離:ooo公里</p>
+                    </div>
+                </div>
+                <div class="viewpointCell">
+                    <h3>屏東縣民公園</h3>
+                    <img src="pic/viewpoint_01.jpeg" alt="景點圖">
+                    <div class="txt">
+                        <p>景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點景點</p>
+                        <p>距離:ooo公里</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- ----------------環境介紹ＥＮＤ---------------- -->
+    <!-- ----------------民宿規範---------------- -->
+    <section>
+        <div class="norm">
+            <h2>民宿規範</h2>
+            <div>
+                <div class="txt">
+                    <ol>
+                        <li>123</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                    </ol>
+                </div>
+                <hr>
+                <div class="slogan">
+                    <div>
+                        <img src="" alt="">
+                        <p>禁止吸菸</p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ----------------民宿規範ＥＮＤ---------------- -->
+    <!-- ----------------來宿方式---------------- -->
+    <section>
+        <div class="homestaySite">
+            <h2>來宿方式</h2>
+            <div>
+                <div class="txt">
+                    <p>地址:屏東市OO路OOO號</p>
+                    <p>時間:OO:OO~OO:OO</p>
+                    <p>電話:OOOOOOOOO</p>
+                    <p>電子信箱:OOOOO@OOOOO.OOO</p>
+                </div>
+                <hr>
+                <img src="pic/map.png" alt="民宿地圖">
+            </div>
+        </div>
+    </section>
+    <!-- ----------------來宿方式ＥＮＤ---------------- -->
+    <!-- ----------------頁尾---------------- -->
+    <footer>
+        <div class="pageBottom">
+            <div class="pageBottomLink">
+                <a href="#">首頁</a>
+                <div>
+                    <div>
+                        <a href="#">預約訂房</a>
+                        <a href="#">空房查詢</a>
+                        <a href="#">民宿介紹</a>
+                    </div>
+                    <div>
+                        <a href="#">交通方式</a>
+                        <a href="#">民宿規範</a>
+                        <a href="#">聯絡我們</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pageBottomLogo">
+                <div>
+                    <div>
+                        <img src="pic/bottomLogoLine.png" alt="LineLogo">
+                        <p>ID:ＯＯＯＯＯＯ</p>
+                    </div>
+                    <div>
+                        <img src="pic/BbottomLogoYoutube.png" alt="YoutubeLogo">
+                        <p>ＯＯＯＯＯＯ</p>
+                    </div>
+                    <div>
+                        <img src="pic/bottomLogoInstagram.png" alt="InstagramLogo">
+                        <p>ＯＯＯＯＯＯ</p>
+                    </div>
+                    <div>
+                        <img src="pic/bottomLogoFacebook.png" alt="FacebookLogo">
+                        <p>ＯＯＯＯＯＯ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pageBottomText">
+                <p>服務時間:OO:OO~OO:OO</p>
+                <p>負責人:OOO</p>
+                <p>電子信箱:OOOO@OOOOO.OOO</p>
+                <p>電話:OO-OOOOOOO</p>
+                <p>地址:屏東市OO路OOO號</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

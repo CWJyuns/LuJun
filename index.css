@@ -1,0 +1,428 @@
+section{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0px;
+}
+h2{
+    display: inline-block;
+    font-size: 21px;
+    color: #fff;
+    padding: 10px 25px;
+    background-color: #6cbd9b;
+    border-radius: 5px;
+    margin: 0px 0px 15px 15px ;
+}
+.btn{
+    color: #000d;
+    background-color: #FAF3B2;
+    padding: 5px 15px;
+    border-radius: 5px ;
+    font-weight: bold;
+}
+
+/* ---------------------------- discount 優惠 ---------------------------- */
+.discount{
+    width: 1200px;
+    font-size: 0px;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.pic{
+    font-size: 0px;
+    margin: auto;
+    width: calc(100% * 0.8);
+    border-radius: 10px ;
+    overflow: hidden;
+    position: relative;
+}
+.discount img{
+    /* vertical-align: top; */
+    /* display: inline-block; */
+    /* display: block; */
+    /* margin: auto; */
+    /* width: calc(100% * 0.8); */
+    width: 100%;
+    object-fit:cover;
+    height: 600px;
+}
+.pic p{
+    display: inline-block;
+}
+
+.pic div{
+    padding: 15px 25px;
+    font-size: 15px;
+    background-color: #0009;
+    color: #fff;
+    border-radius: 10px 0px 10px 0px;
+}
+.pic div:first-child{
+    position: absolute;
+}
+.pic div:last-child{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+.pic .btn {
+    margin-left: 15px;
+}
+.discount button{
+    border: none;
+    background-color:transparent ;
+}
+.discount button::before{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-top: 2px #000  solid; 
+    border-left: 2px #000  solid;
+    border-bottom: 2px solid transparent;
+    border-right: 2px solid transparent;
+   
+}
+.discount button:first-child::before{
+    margin-left: 25px;
+    transform: rotate(-45deg);
+}
+.discount button:last-child::before{
+    transform: rotate( 135deg);
+    margin-right: 25px;
+}
+.discount .pic::after{
+    content: '';
+    width: 100%;
+    height: calc(100% / 3 );
+    display: block;
+    background: linear-gradient(#fff0,#000a);
+    position: absolute;
+    bottom: 0px;
+}
+
+
+/* .discountRightBtn{ 
+    position: absolute; 
+}  */
+
+/* .discountRightBtn:after{ 
+    left: 10px; 覆蓋並錯開1px 
+    border-right: 50px #fff solid; 
+} */
+
+
+
+/* ------------------------------民宿介紹------------------------------ */
+.roomRefer{
+    margin: auto;
+    width: 1200px;
+    /* display: flex; */
+}
+.roomRefer>div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.roomReferCell{
+    width: calc(100% / 3 - 30px);
+    background-color: #5D878C ;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px 1px #0008;
+}
+
+.roomReferCell .btnCell{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.roomReferCellTxt{
+    padding: 15px;
+}
+.roomReferCellTxt .txt{
+    color: white;
+}
+.roomReferCellTxt .txt div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.roomReferCellTxt .txt p{
+    padding: 10px 0px;
+}
+.roomReferCellTxt .btnCell{
+    margin-top: 30px;
+    color: #fff;
+}
+.roomReferCellPic{
+    position: relative;
+    width: 100%;
+}
+.roomReferCellPic::after{
+    content: '';
+    width: 100%;
+    height: calc(100% / 2 );
+    height: 100px;
+    display: block;
+    background: linear-gradient(#fff0,#000a);
+    /* background-color: #000; */
+    position: absolute;
+    bottom: 0px;
+}
+.roomReferCellPic img{
+    vertical-align: top;
+    height: 200px;
+    width: 100%;
+    object-fit:cover;
+}
+/* ------------------------------活動介紹------------------------------ */
+.activity{
+    width: 1200px;
+}
+.activity>div{
+    box-sizing: border-box;
+    margin: auto;
+    width: calc(100% - 30px);
+    /* background-color: #5D878C5f; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.activity>div>div{
+   background-color: #5D878C;
+   box-sizing: border-box;
+   padding: 15px;
+   border-radius: 5px;
+   color: #fff;
+}
+.activitytime{
+    width: calc(100% / 3 - 15px);
+}
+.activitytime:first-child p{
+    display: inline-block;
+    font-size: 18px;
+}
+/* .activitytxt div{
+    width: 100%;
+} */
+.activitytxt .txt{
+    padding: 15px;
+}
+.activitytxt .txt p:last-child{
+    padding: 5px 15px 15px 15px;
+    text-indent:2em;
+}
+.activitytxt p{
+    line-height: 1.2em;
+    letter-spacing: 0.2em;
+    /* margin-bottom: 30px; */
+}
+.activitytxt{
+    width: calc((100% / 3) * 2 - 30px);
+    position: relative;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.activitytxt>div>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.activitytxt::before{
+    content: '';
+    height: 0px;
+    width: 0px;
+    border-bottom:30px solid transparent;
+    border-right:30px solid #5D878C;
+    border-top:30px solid transparent;
+    border-left:30px solid transparent;
+    position: absolute;
+    left: -60px;
+    top: calc(50% - 30px);
+}
+
+.activityday{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.activityday::before{
+    width: 100%;
+    content: '';
+    width: 2px;
+    height: 320px;
+    margin: 15px;
+    display: inline-block;
+    background-color: #fff;
+     /* margin: ; */
+} 
+/* ------------------------------環境介紹------------------------------ */
+.viewpoint{
+    width: 1200px;
+}
+.viewpoint div{
+    font-size: 0px;
+}
+.viewpoint>div .viewpointCell{
+    width: calc(100% / 3 - 30px);
+    background-color: #5D878C ;
+    font-size: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 1px #0008;
+}
+/* .viewpoint>div div{
+    margin: 0px 15px;
+    display: inline-block;
+} */
+.viewpoint>div{
+    display: flex;
+    justify-content: space-around;
+}
+.viewpointCell h3 {
+    color: #fff;
+    font-size: 21px;
+    text-align:center;
+    /* margin: 5px 0px; */
+}
+.viewpointCell  img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 15px 0px;
+    height: 200px;
+    object-fit:cover;
+    
+
+}
+.viewpointCell .txt{
+    color: #fff;
+    width: 100%;
+    font-size: 15px;
+    /* height: 100%; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-content: space-between; */
+}
+/* .viewpointCell .txt p:first-child{
+    color: #fffa;
+    text-indent:2.2em;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+} */
+.viewpointCell .txt{
+    text-align: right;
+}
+
+/* ------------------------------民宿規範------------------------------ */
+.norm{
+    width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0px 15px;
+}
+.norm>h2{
+    margin-left: 0px;
+}
+.norm>div{
+    /* margin: 0px 15px; */
+    /* background-color: #5E888D; */
+    border: 2px solid #0002;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.norm .txt ol{
+    list-style-type:disc;
+    padding-left: 1.5em;
+    color: #000a;
+    line-height: 2;
+    letter-spacing: 0.1em;
+}
+.norm>div>div{
+    width: calc(100% / 2 - 15px);
+}
+.norm hr{
+    border: 1px solid #0002;
+    border-radius: 2px;
+}
+.slogan{
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* vertical-align: middle; */
+}
+
+.slogan hr{
+    margin-left: -10px;
+}
+.slogan img{
+    vertical-align: middle;
+    width: 40px;
+    position: relative;
+    z-index: 2;
+}
+.slogan p{
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+}
+.slogan>div{
+    margin: 10px 15px;
+    position: relative;
+}
+
+/* 🚫 */
+/* ❌ */
+.slogan>div>p::before{
+    content: '❌';
+    margin-right: 10px;
+    /* font-size: */
+    /* position: absolute;  */
+}
+/* ------------------------------來宿方式------------------------------ */
+.homestaySite>div{
+    margin: auto;
+    width: 1170px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #5E888D;
+    display: flex;
+    justify-content: space-between;
+}
+.homestaySite>div hr{
+    margin: 0px;
+    border: 1px solid #0006;
+    border-radius: 2px;
+    /* width: calc(100% / 3 - 30px); */
+}
+.homestaySite>div .txt{
+    color: #fff;
+    
+}
+.homestaySite>div .txt p{
+    /* color: #fff; */
+    padding: 10px;
+    
+}
+.homestaySite>div div{
+    width: calc(100% / 3 - 30px);
+}
+.homestaySite img {
+    /* width: 100%; */
+    width: calc((100% / 3)*2 - 30px);
+    object-fit:cover;
+    border-radius: 5px;
+}

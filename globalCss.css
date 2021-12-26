@@ -1,0 +1,185 @@
+ /* -------------------標題------------------- */
+body{
+    /* background-color: #b5decd; */
+      background-color: #6cbd9b77;
+      /* background-color: #0002; */
+      padding-top: 60px;
+    }
+a{
+    text-decoration: none;
+}
+header{
+        background-color: #6cbd9b;
+        /* height: 60px; */
+        width: 100%;
+        font-size: 0px;
+        position:fixed ;
+        top: 0px;
+        z-index: 3;
+}
+header a{
+    color: #000;
+}
+header>div{
+    /* width: 100%; */
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+}
+.logo{
+    margin: 0px 15px;
+    display: inline-flex;
+    align-items: center;
+}
+/* 
+h1::before{
+    content: '';
+    height: 50px;
+    width: 45px;
+    vertical-align:middle;
+    background-image: url(pic/logo_1.svg);
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin: 5px 5px 5px 0px;
+    background-blend-mode: screen;
+} */
+.logoA{
+    display: flex;
+    align-items: center;
+    /* align-self: center; */
+}
+.logoA img{
+    /* background-color:  ; */
+    /* color: #fffd; */
+    opacity: 0.9;
+    width: 50px;
+}
+
+h1{
+    font-size: 24px;
+    padding: 0px 10px;
+    /* font-weight: bold; */
+    align-items: center;
+    color: #fffffff0;
+    text-shadow: 0px 0px 1px #0002, 2px 2px 3px #3332 ;
+}
+/* header ul{
+    display: inline-block;
+} */
+header li{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    font-size: 18px;
+    height: 100%;
+    font-weight: bold; 
+}
+header li:not(li:last-child) a:hover{
+    color: #000a;
+    text-shadow: none ;
+    /* padding: 20px 15px; */
+}
+
+
+header li:last-child a{
+    color: #0009;
+    background-color: #faf3b2;
+    padding: 10px 15px;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+
+header li:not(li:last-child) a{
+    color: #fffffff0;
+    text-shadow: 0px 0px 1px #000, 2px 2px 3px #3336 ;
+    
+}
+/* -------------------底------------------- */
+footer{
+    width: 100%;
+    background-color: #5d878c ;
+    padding: 60px 0px;
+}
+.pageBottom{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+}
+/* -------------------頁底 每個block 大小-------------------*/
+.pageBottom>div{
+    width: calc(100% / 4 - 30px);
+    margin: 0px 15px;  
+}
+/* -------------------頁底導覽列 -------------------*/
+.pageBottomLink>div{
+    font-size: 0px;
+    width: 100%;
+}
+.pageBottomLink>div div{
+    display: inline-block;
+    width: 50%;
+   
+}
+.pageBottomLink a{
+    color: #000;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+/* -------------------頁底社群介紹------------------- */
+.pageBottomLogo{
+    text-align: center;
+}
+.pageBottomLogo > div{
+    display: inline-block;
+    text-align: left;
+}
+.pageBottomLogo>div div{
+    display: block;
+    padding: 3px;
+}
+.pageBottomLogo img{
+    width: 30px;
+    vertical-align: middle;
+}
+.pageBottomLogo p{
+    display: inline-block;
+    vertical-align: middle;
+    /* line-height: 100%; */
+}
+/* -------------------頁底說明區塊 -------------------*/
+.pageBottomText p{
+    padding: 5px;
+}
+
+/* .pageBottom::before{
+    content: '';
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat; 
+    background-image: url(pic/logo.svg) ;
+    opacity: 0.6;
+    position: absolute ;
+    bottom: 0;
+    left: 0; 
+} */
+/* -------------------字體------------------- */
+p,h1,h2,h3,h4,li,ol,a,td,caption,table,div,input,label{
+    font-family: 思源黑體, 微軟正黑體, 蘋方體, 黑體, sans-serif, serif;
+    
+}
+.copyright{
+    background-color: #5d878c;
+    padding: 15px;
+    text-align: center;
+    font-size: 12px;
+}
