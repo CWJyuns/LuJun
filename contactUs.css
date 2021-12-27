@@ -106,6 +106,7 @@
     font-weight: bold;
     border:none;
     box-sizing: border-box;
+    cursor:pointer;
 }
 .resetbtn{
     /* display: inline-block; */
@@ -120,6 +121,7 @@
     border:none;
     margin-right: 20px;
     text-shadow: 0px 0px 1px #0008, 1px 1px 1px #333a ;
+    cursor:pointer;
 }
 .contactBlock form div{
     text-align: right;

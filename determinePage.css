@@ -79,6 +79,7 @@ section{
     box-sizing: border-box;
     font-weight: bold;
     border:none;
+    cursor:pointer;
 }
 .resetbtn{
     /* display: inline-block; */
@@ -95,6 +96,7 @@ section{
     margin-right: 20px;
     text-shadow: 0px 0px 1px #0008, 1px 1px 1px #333a ;
     /* letter-spacing: 0.1em; */
+    cursor:pointer;
 }
 .checkInData form div{
     text-align: right;
@@ -165,6 +167,9 @@ section{
     bottom: 0;
     background: linear-gradient(transparent ,#000a 90% );
     display: block;
+}
+.determineRoom .txt >div{
+    cursor:pointer;
 }
 /* textarea{
     margin-left: calc(60px + 4em);
