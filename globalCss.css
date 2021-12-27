@@ -16,6 +16,7 @@ header{
         position:fixed ;
         top: 0px;
         z-index: 3;
+        overflow: hidden;
 }
 header a{
     color: #000;
@@ -75,15 +76,19 @@ h1{
 header li{
     display: inline-block;
     box-sizing: border-box;
-    padding: 20px 15px;
+    /* padding: 20px 15px; */
     font-size: 18px;
     height: 100%;
     font-weight: bold; 
 }
 header li:not(li:last-child) a:hover{
-    color: #000a;
+    /* color: #000a; */
+    background-color: #000a;
     text-shadow: none ;
     /* padding: 20px 15px; */
+}
+header li a{
+    padding: 20px 15px;
 }
 
 
@@ -92,6 +97,7 @@ header li:last-child a{
     background-color: #faf3b2;
     padding: 10px 15px;
     border-radius: 5px;
+    margin-left: 15px;
     /* text-align: center; */
 }
 
