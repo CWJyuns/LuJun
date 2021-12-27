@@ -178,10 +178,3 @@ section{
 } */
 /* font-family: "Noto Sans CJK TC", "Microsoft JhengHei", PingFang,PingFang, STHeiti, sans-serif, serif; */
 
-/* ------------------------- */
-header li:nth-child(5) a{
-    /* color: #000a; */
-    background-color: #0005;
-    text-shadow: none ;
-    /* padding: 20px 15px; */
-}

@@ -54,11 +54,12 @@ iframe{
     position: relative;
 }
 .way div{
-    margin-left: 70px;
+    /* margin-left: 70px; */
 }
 .way ul{
     display: inline-block;
     text-align: left;
+    margin-left: 150px;
 }
 .way li:last-child::before{   
     border: 0.4em solid #000d;
