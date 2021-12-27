@@ -180,7 +180,7 @@ footer{
 } */
 /* -------------------字體------------------- */
 p,h1,h2,h3,h4,li,ol,a,td,caption,table,div,input,label{
-    font-family: 思源黑體, 微軟正黑體, 蘋方體, 黑體, sans-serif, serif;
+    font-family: 微軟正黑體, 蘋方體, 思源黑體, 黑體, sans-serif, serif;
     
 }
 .copyright{
