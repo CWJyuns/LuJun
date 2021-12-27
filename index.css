@@ -132,6 +132,7 @@ h2{
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 3px 3px 5px 1px #0008;
+    cursor: pointer;
 }
 
 .roomReferCell .btnCell{
@@ -279,6 +280,7 @@ h2{
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 3px 3px 5px 1px #0008;
+    cursor: pointer;
 }
 /* .viewpoint>div div{
     margin: 0px 15px;
